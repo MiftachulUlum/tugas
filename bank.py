@@ -1,10 +1,10 @@
-greet=input('').lower().replace(" ","")
+greet=input("").lower().replace(" ","")
 x=greet[0:5]
-if(greet=='hello'):
+if(greet=="hello"):
     money=0
-elif(x[0]=='hello'):
+elif(x[0]=="hello"):
     money=0
-elif(greet[0]=='h'):
+elif(greet[0]=="h"):
     money=20
 else :
     money=100
